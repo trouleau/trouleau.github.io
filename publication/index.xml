@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on William Trouleau</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on William Trouleau</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Preventive chemotherapy to control soil-transmitted helminthiasis averted more than 500 000 DALYs in 2015</title>
+      <link>/publication/who-helminth/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/who-helminth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Just one more: Modeling binge watching behavior</title>
+      <link>/publication/kdd-binge-watching/</link>
+      <pubDate>Sat, 13 Aug 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/kdd-binge-watching/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
