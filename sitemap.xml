@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/publication/disease-control-ml4h-neurips2018/</loc>
+      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/who-helminth/</loc>
       <lastmod>2018-01-16T00:00:00+01:00</lastmod>
     </url>
@@ -29,7 +37,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2016-08-13T00:00:00+02:00</lastmod>
+      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -54,8 +62,44 @@
     
     <url>
     
+      <loc>/tags/disease-modeling/</loc>
+      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/epidemic-modeling/</loc>
+      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/optimal-control/</loc>
+      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication_types/</loc>
-      <lastmod>2016-08-13T00:00:00+02:00</lastmod>
+      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/sis/</loc>
+      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -64,6 +108,7 @@
     <url>
     
       <loc>/tags/</loc>
+      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
