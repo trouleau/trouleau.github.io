@@ -6,11 +6,20 @@
     <description>Recent content in Publications on William Trouleau</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Hawkes Processes Under Synchronization Noise</title>
+      <link>/publication/noiys-hawkes-icml2019/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/noiys-hawkes-icml2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Stochastic Optimal Control of Epidemic Processes in Networks</title>
