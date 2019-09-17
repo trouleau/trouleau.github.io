@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on William Trouleau</title>
-    <link>/tags/</link>
+    <link>https://trouleau.github.io/tags/</link>
     <description>Recent content in Tags on William Trouleau</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Wed, 28 Nov 2018 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://trouleau.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Disease modeling</title>
-      <link>/tags/disease-modeling/</link>
+      <link>https://trouleau.github.io/tags/disease-modeling/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
       
-      <guid>/tags/disease-modeling/</guid>
+      <guid>https://trouleau.github.io/tags/disease-modeling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemic modeling</title>
-      <link>/tags/epidemic-modeling/</link>
+      <link>https://trouleau.github.io/tags/epidemic-modeling/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
       
-      <guid>/tags/epidemic-modeling/</guid>
+      <guid>https://trouleau.github.io/tags/epidemic-modeling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimal Control</title>
-      <link>/tags/optimal-control/</link>
+      <link>https://trouleau.github.io/tags/optimal-control/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
       
-      <guid>/tags/optimal-control/</guid>
+      <guid>https://trouleau.github.io/tags/optimal-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SIS</title>
-      <link>/tags/sis/</link>
+      <link>https://trouleau.github.io/tags/sis/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
       
-      <guid>/tags/sis/</guid>
+      <guid>https://trouleau.github.io/tags/sis/</guid>
       <description></description>
     </item>
     

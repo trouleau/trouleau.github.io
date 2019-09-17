@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optimal Control on William Trouleau</title>
-    <link>/tags/optimal-control/</link>
+    <link>https://trouleau.github.io/tags/optimal-control/</link>
     <description>Recent content in Optimal Control on William Trouleau</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Wed, 28 Nov 2018 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="/tags/optimal-control/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://trouleau.github.io/tags/optimal-control/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stochastic Optimal Control of Epidemic Processes in Networks</title>
-      <link>/publication/disease-control-ml4h-neurips2018/</link>
+      <link>https://trouleau.github.io/publication/disease-control-ml4h-neurips2018/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
       
-      <guid>/publication/disease-control-ml4h-neurips2018/</guid>
+      <guid>https://trouleau.github.io/publication/disease-control-ml4h-neurips2018/</guid>
       <description></description>
     </item>
     

@@ -4,7 +4,15 @@
     
     <url>
     
-      <loc>/publication/noiys-hawkes-icml2019/</loc>
+      <loc>https://trouleau.github.io/publication/var-hawkes-neurips2019/</loc>
+      <lastmod>2019-09-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://trouleau.github.io/publication/noiys-hawkes-icml2019/</loc>
       <lastmod>2019-04-22T00:00:00+02:00</lastmod>
     </url>
     
@@ -12,7 +20,7 @@
     
     <url>
     
-      <loc>/publication/disease-control-ml4h-neurips2018/</loc>
+      <loc>https://trouleau.github.io/publication/disease-control-ml4h-neurips2018/</loc>
       <lastmod>2018-11-28T00:00:00+01:00</lastmod>
     </url>
     
@@ -20,7 +28,7 @@
     
     <url>
     
-      <loc>/publication/who-helminth/</loc>
+      <loc>https://trouleau.github.io/publication/who-helminth/</loc>
       <lastmod>2018-01-16T00:00:00+01:00</lastmod>
     </url>
     
@@ -28,7 +36,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://trouleau.github.io/publication/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -36,7 +44,7 @@
     
     <url>
     
-      <loc>/publication/kdd-binge-watching/</loc>
+      <loc>https://trouleau.github.io/publication/kdd-binge-watching/</loc>
       <lastmod>2016-08-13T00:00:00+02:00</lastmod>
     </url>
     
@@ -44,8 +52,8 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
-      <lastmod>2019-04-22T00:00:00+02:00</lastmod>
+      <loc>https://trouleau.github.io/publication_types/1/</loc>
+      <lastmod>2019-09-01T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -53,7 +61,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
+      <loc>https://trouleau.github.io/publication_types/2/</loc>
       <lastmod>2018-01-16T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -62,7 +70,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://trouleau.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -70,7 +78,7 @@
     
     <url>
     
-      <loc>/tags/disease-modeling/</loc>
+      <loc>https://trouleau.github.io/tags/disease-modeling/</loc>
       <lastmod>2018-11-28T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -79,7 +87,7 @@
     
     <url>
     
-      <loc>/tags/epidemic-modeling/</loc>
+      <loc>https://trouleau.github.io/tags/epidemic-modeling/</loc>
       <lastmod>2018-11-28T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -88,7 +96,7 @@
     
     <url>
     
-      <loc>/tags/optimal-control/</loc>
+      <loc>https://trouleau.github.io/tags/optimal-control/</loc>
       <lastmod>2018-11-28T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -97,8 +105,8 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
-      <lastmod>2019-04-22T00:00:00+02:00</lastmod>
+      <loc>https://trouleau.github.io/publication_types/</loc>
+      <lastmod>2019-09-01T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -106,7 +114,7 @@
     
     <url>
     
-      <loc>/tags/sis/</loc>
+      <loc>https://trouleau.github.io/tags/sis/</loc>
       <lastmod>2018-11-28T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -115,7 +123,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://trouleau.github.io/tags/</loc>
       <lastmod>2018-11-28T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -124,7 +132,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>https://trouleau.github.io/</loc>
       <lastmod>2017-10-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
