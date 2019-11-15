@@ -19,7 +19,7 @@
       
       <guid>https://trouleau.github.io/home/about/</guid>
       <description>Hi! I&amp;rsquo;m William. I&amp;rsquo;m a Ph.D. student at EPFL in the INDY Lab, under the supervision of Matthias Grossglauser and Patrick Thiran.
-My research ranges from machine learning algorithms to probabilistic modeling. In particular, I am interested in the statistical and algorithmic aspects of modeling, control and inference of processes diffusing over networks ; with applications on information diffusion, recommendation systems, and disease modeling.
+My research ranges from machine learning algorithms to probabilistic modeling. In particular, I am interested in the statistical and algorithmic aspects of modeling, control and inference of epidemic processes diffusing over networks ; with applications on disease modeling, information diffusion, and recommendation systems.
 Here is a link to my Curriculum Vitæ.</description>
     </item>
     
@@ -42,12 +42,12 @@ Here is a link to my Curriculum Vitæ.</description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://trouleau.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <title>Honors &amp; Awards</title>
+      <link>https://trouleau.github.io/home/honors/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://trouleau.github.io/home/projects/</guid>
-      <description></description>
+      <guid>https://trouleau.github.io/home/honors/</guid>
+      <description> Winner of the KIT Tuberculosis Hackathon as part of the IDM team (2019) Teaching Assistant Award, EPFL (2019) ACM SIGKDD Student Travel Award (2016) EDIC Fellowship, EPFL (2015)  </description>
     </item>
     
   </channel>
