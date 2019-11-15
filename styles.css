@@ -406,7 +406,7 @@ a[data-fancybox] img {
 }
 
 .home-section {
-  background-color: #FFF;
+  background-color: #FFFFF;
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -417,7 +417,7 @@ a[data-fancybox] img {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: FAFAFA;
+  background-color: #FAFAFA;
 }
 
 @media screen and (max-width: 768px) {
