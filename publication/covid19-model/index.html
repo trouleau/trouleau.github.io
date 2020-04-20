@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="Learning the causal-interaction network of multivariate Hawkes processes is a useful task in many applications. Maximum-likelihood estimation is the most common approach to solve the problem in the presence of long observation sequences. However, when only short sequences are available, the lack of data amplifies the risk of overfitting and regularization becomes critical. Due to the challenges of hyper-parameter tuning, state-of-the-art methods only parameterize regularizers by a single shared hyper-parameter, hence limiting the power of representation of the model. To solve both issues, we develop in this work an efficient algorithm based on variational expectation-maximization. Our approach is able to optimize over an extended set of hyper-parameters. It is also able to take into account the uncertainty in the model parameters by learning a posterior distribution over them. Experimental results on both synthetic and real datasets show that our approach significantly outperforms state-of-the-art methods under short observation sequences.">
+  <meta name="description" content="We introduce a novel modeling framework for studying epidemics that is specifically designed to make use of fine-grained spatiotemporal data. Motivated by the current COVID-19 outbreak and the availability of data from contact or location tracing technologies, our model uses marked temporal point processes to represent individual mobility patterns and the course of the disease for each individual in a population. We design an efficient sampling algorithm for our model that can be used to predict the spread of infectious diseases such as COVID-19 under different testing and tracing strategies, social distancing measures, and business restrictions, given location or contact histories of individuals. Building on this algorithm, we use Bayesian optimization to estimate the risk of exposure of each individual at the sites they visit, the percentage of symptomatic individuals, and the difference in transmission rate between asymptomatic and symptomatic individuals from historical longitudinal testing data. Experiments using measured COVID-19 data and mobility patterns from Tübingen, a town in the southwest of Germany, demonstrate that our model can be used to quantify the effects of tracing, testing, and containment strategies at an unprecedented spatiotemporal resolution. To facilitate research and informed policy-making, particularly in the context of the current COVID-19 outbreak, we are releasing an open-source implementation of our framework at this [https URL](https://github.com/covid19-model).">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://trouleau.github.io/publication/var-hawkes-neurips2019/">
+  <link rel="alternate" hreflang="en-us" href="https://trouleau.github.io/publication/covid19-model/">
 
   
 
@@ -102,30 +102,30 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://trouleau.github.io/publication/var-hawkes-neurips2019/">
+  <link rel="canonical" href="https://trouleau.github.io/publication/covid19-model/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="William Trouleau">
-  <meta property="og:url" content="https://trouleau.github.io/publication/var-hawkes-neurips2019/">
-  <meta property="og:title" content="Learning Hawkes Processes from a Handful of Events | William Trouleau">
-  <meta property="og:description" content="Learning the causal-interaction network of multivariate Hawkes processes is a useful task in many applications. Maximum-likelihood estimation is the most common approach to solve the problem in the presence of long observation sequences. However, when only short sequences are available, the lack of data amplifies the risk of overfitting and regularization becomes critical. Due to the challenges of hyper-parameter tuning, state-of-the-art methods only parameterize regularizers by a single shared hyper-parameter, hence limiting the power of representation of the model. To solve both issues, we develop in this work an efficient algorithm based on variational expectation-maximization. Our approach is able to optimize over an extended set of hyper-parameters. It is also able to take into account the uncertainty in the model parameters by learning a posterior distribution over them. Experimental results on both synthetic and real datasets show that our approach significantly outperforms state-of-the-art methods under short observation sequences.">
+  <meta property="og:url" content="https://trouleau.github.io/publication/covid19-model/">
+  <meta property="og:title" content="A Spatiotemporal Epidemic Model to Quantify the Effects of Contact Tracing, Testing, and Containment | William Trouleau">
+  <meta property="og:description" content="We introduce a novel modeling framework for studying epidemics that is specifically designed to make use of fine-grained spatiotemporal data. Motivated by the current COVID-19 outbreak and the availability of data from contact or location tracing technologies, our model uses marked temporal point processes to represent individual mobility patterns and the course of the disease for each individual in a population. We design an efficient sampling algorithm for our model that can be used to predict the spread of infectious diseases such as COVID-19 under different testing and tracing strategies, social distancing measures, and business restrictions, given location or contact histories of individuals. Building on this algorithm, we use Bayesian optimization to estimate the risk of exposure of each individual at the sites they visit, the percentage of symptomatic individuals, and the difference in transmission rate between asymptomatic and symptomatic individuals from historical longitudinal testing data. Experiments using measured COVID-19 data and mobility patterns from Tübingen, a town in the southwest of Germany, demonstrate that our model can be used to quantify the effects of tracing, testing, and containment strategies at an unprecedented spatiotemporal resolution. To facilitate research and informed policy-making, particularly in the context of the current COVID-19 outbreak, we are releasing an open-source implementation of our framework at this [https URL](https://github.com/covid19-model).">
   
   
     
   <meta property="og:image" content="https://trouleau.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-09-01T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2020-04-15T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2019-09-01T00:00:00&#43;02:00">
-  
-
+  <meta property="article:modified_time" content="2020-04-15T00:00:00&#43;02:00">
   
 
   
 
-  <title>Learning Hawkes Processes from a Handful of Events | William Trouleau</title>
+  
+
+  <title>A Spatiotemporal Epidemic Model to Quantify the Effects of Contact Tracing, Testing, and Containment | William Trouleau</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -227,10 +227,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Learning Hawkes Processes from a Handful of Events</h1>
+    <h1 itemprop="name">A Spatiotemporal Epidemic Model to Quantify the Effects of Contact Tracing, Testing, and Containment</h1>
     <span class="pub-authors" itemprop="author">
       
-      F Salehi, <em>W Trouleau</em>, M Grossglauser, P Thiran
+      L Lorch, <em>W Trouleau</em>, S Tsirtsis, A Szanto, B Schölkopf, M Gomez-Rodriguez
       
     </span>
     <span class="float-right">
@@ -239,35 +239,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Learning%20Hawkes%20Processes%20from%20a%20Handful%20of%20Events&amp;url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fvar-hawkes-neurips2019%2f"
+         href="https://twitter.com/intent/tweet?text=A%20Spatiotemporal%20Epidemic%20Model%20to%20Quantify%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment&amp;url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2ftrouleau.github.io%2fpublication%2fvar-hawkes-neurips2019%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fvar-hawkes-neurips2019%2f&amp;title=Learning%20Hawkes%20Processes%20from%20a%20Handful%20of%20Events"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f&amp;title=A%20Spatiotemporal%20Epidemic%20Model%20to%20Quantify%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fvar-hawkes-neurips2019%2f&amp;title=Learning%20Hawkes%20Processes%20from%20a%20Handful%20of%20Events"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f&amp;title=A%20Spatiotemporal%20Epidemic%20Model%20to%20Quantify%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Learning%20Hawkes%20Processes%20from%20a%20Handful%20of%20Events&amp;body=https%3a%2f%2ftrouleau.github.io%2fpublication%2fvar-hawkes-neurips2019%2f">
+         href="mailto:?subject=A%20Spatiotemporal%20Epidemic%20Model%20to%20Quantify%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment&amp;body=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -281,7 +281,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Learning the causal-interaction network of multivariate Hawkes processes is a useful task in many applications. Maximum-likelihood estimation is the most common approach to solve the problem in the presence of long observation sequences. However, when only short sequences are available, the lack of data amplifies the risk of overfitting and regularization becomes critical. Due to the challenges of hyper-parameter tuning, state-of-the-art methods only parameterize regularizers by a single shared hyper-parameter, hence limiting the power of representation of the model. To solve both issues, we develop in this work an efficient algorithm based on variational expectation-maximization. Our approach is able to optimize over an extended set of hyper-parameters. It is also able to take into account the uncertainty in the model parameters by learning a posterior distribution over them. Experimental results on both synthetic and real datasets show that our approach significantly outperforms state-of-the-art methods under short observation sequences.</p>
+    <p class="pub-abstract" itemprop="text">We introduce a novel modeling framework for studying epidemics that is specifically designed to make use of fine-grained spatiotemporal data. Motivated by the current COVID-19 outbreak and the availability of data from contact or location tracing technologies, our model uses marked temporal point processes to represent individual mobility patterns and the course of the disease for each individual in a population. We design an efficient sampling algorithm for our model that can be used to predict the spread of infectious diseases such as COVID-19 under different testing and tracing strategies, social distancing measures, and business restrictions, given location or contact histories of individuals. Building on this algorithm, we use Bayesian optimization to estimate the risk of exposure of each individual at the sites they visit, the percentage of symptomatic individuals, and the difference in transmission rate between asymptomatic and symptomatic individuals from historical longitudinal testing data. Experiments using measured COVID-19 data and mobility patterns from Tübingen, a town in the southwest of Germany, demonstrate that our model can be used to quantify the effects of tracing, testing, and containment strategies at an unprecedented spatiotemporal resolution. To facilitate research and informed policy-making, particularly in the context of the current COVID-19 outbreak, we are releasing an open-source implementation of our framework at this <a href="https://github.com/covid19-model" target="_blank">https URL</a>.</p>
     
 
     
@@ -292,8 +292,8 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#3">
+              Manuscript
             </a>
             
           </div>
@@ -310,7 +310,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Proceedings of the 33rd Conference on Neural Information Processing Systems, NeurIPS</div>
+          <div class="col-12 col-md-9">Arxiv Preprint</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -324,7 +324,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            September, 2019
+            April, 2020
           </div>
         </div>
       </div>
@@ -343,7 +343,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1911.00292" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2004.07641" target="_blank" rel="noopener">
   Full text
 </a>
 
@@ -352,13 +352,8 @@
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/files/citations/var-hawkes-neurips2019.bib">
-  Cite
-</button>
 
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/trouleau/var-hawkes" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/covid19-model" target="_blank" rel="noopener">
   Code
 </a>
 

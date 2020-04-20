@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://trouleau.github.io/publication/covid19-model/</loc>
+      <lastmod>2020-04-15T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://trouleau.github.io/publication/var-hawkes-neurips2019/</loc>
       <lastmod>2019-09-01T00:00:00+02:00</lastmod>
     </url>
@@ -63,6 +71,15 @@
     
       <loc>https://trouleau.github.io/publication_types/2/</loc>
       <lastmod>2018-01-16T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://trouleau.github.io/publication_types/3/</loc>
+      <lastmod>2020-04-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
