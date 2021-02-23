@@ -11,7 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Spatiotemporal Epidemic Model to Quantify the Effects of Contact Tracing, Testing, and Containment</title>
+      <title>A Variational Inference Approach to Learning Multivariate Wold Processes</title>
+      <link>https://trouleau.github.io/publication/var-wold-aistats2021/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://trouleau.github.io/publication/var-wold-aistats2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots</title>
       <link>https://trouleau.github.io/publication/covid19-model/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0200</pubDate>
       

@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="We introduce a novel modeling framework for studying epidemics that is specifically designed to make use of fine-grained spatiotemporal data. Motivated by the current COVID-19 outbreak and the availability of data from contact or location tracing technologies, our model uses marked temporal point processes to represent individual mobility patterns and the course of the disease for each individual in a population. We design an efficient sampling algorithm for our model that can be used to predict the spread of infectious diseases such as COVID-19 under different testing and tracing strategies, social distancing measures, and business restrictions, given location or contact histories of individuals. Building on this algorithm, we use Bayesian optimization to estimate the risk of exposure of each individual at the sites they visit, the percentage of symptomatic individuals, and the difference in transmission rate between asymptomatic and symptomatic individuals from historical longitudinal testing data. Experiments using measured COVID-19 data and mobility patterns from Tübingen, a town in the southwest of Germany, demonstrate that our model can be used to quantify the effects of tracing, testing, and containment strategies at an unprecedented spatiotemporal resolution. To facilitate research and informed policy-making, particularly in the context of the current COVID-19 outbreak, we are releasing an open-source implementation of our framework at this [https URL](https://github.com/covid19-model).">
+  <meta name="description" content="Multiple lines of evidence at the individual and population level strongly suggest that infection hotspots, or superspreading events, where a single individual infects many others, play a key role in the transmission dynamics of COVID-19. However, most of the existing epidemiological models either assume or result in a Poisson distribution of the number of infections caused by a single infectious individual, often called secondary infections. As a result, these models overlook the observed overdispersion in the number of secondary infections and are unable to accurately characterize infection hotspots. In this work, we aim to fill this gap by introducing a temporal point process framework that explicitly represents sites where infection hotspots may occur. Under our model, overdispersion on the number of secondary infections emerges naturally. Moreover, using an efficient sampling algorithm, we demonstrate how to apply Bayesian optimization with longitudinal case data to estimate the transmission rate of infectious individuals at sites they visit and in their households, as well as the mobility reduction due to social distancing. Simulations using fine-grained demographic data and site locations from several cities and regions demonstrate that our framework faithfully characterizes the observed longitudinal trend of COVID-19 cases. In addition, the simulations show that our model can be used to estimate the effect of testing, contact tracing, and containment at an unprecedented spatiotemporal resolution, and reveal that these measures do not decrease overdispersion in the number of secondary infections.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://trouleau.github.io/publication/covid19-model/">
@@ -108,8 +108,8 @@
   
   <meta property="og:site_name" content="William Trouleau">
   <meta property="og:url" content="https://trouleau.github.io/publication/covid19-model/">
-  <meta property="og:title" content="A Spatiotemporal Epidemic Model to Quantify the Effects of Contact Tracing, Testing, and Containment | William Trouleau">
-  <meta property="og:description" content="We introduce a novel modeling framework for studying epidemics that is specifically designed to make use of fine-grained spatiotemporal data. Motivated by the current COVID-19 outbreak and the availability of data from contact or location tracing technologies, our model uses marked temporal point processes to represent individual mobility patterns and the course of the disease for each individual in a population. We design an efficient sampling algorithm for our model that can be used to predict the spread of infectious diseases such as COVID-19 under different testing and tracing strategies, social distancing measures, and business restrictions, given location or contact histories of individuals. Building on this algorithm, we use Bayesian optimization to estimate the risk of exposure of each individual at the sites they visit, the percentage of symptomatic individuals, and the difference in transmission rate between asymptomatic and symptomatic individuals from historical longitudinal testing data. Experiments using measured COVID-19 data and mobility patterns from Tübingen, a town in the southwest of Germany, demonstrate that our model can be used to quantify the effects of tracing, testing, and containment strategies at an unprecedented spatiotemporal resolution. To facilitate research and informed policy-making, particularly in the context of the current COVID-19 outbreak, we are releasing an open-source implementation of our framework at this [https URL](https://github.com/covid19-model).">
+  <meta property="og:title" content="Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots | William Trouleau">
+  <meta property="og:description" content="Multiple lines of evidence at the individual and population level strongly suggest that infection hotspots, or superspreading events, where a single individual infects many others, play a key role in the transmission dynamics of COVID-19. However, most of the existing epidemiological models either assume or result in a Poisson distribution of the number of infections caused by a single infectious individual, often called secondary infections. As a result, these models overlook the observed overdispersion in the number of secondary infections and are unable to accurately characterize infection hotspots. In this work, we aim to fill this gap by introducing a temporal point process framework that explicitly represents sites where infection hotspots may occur. Under our model, overdispersion on the number of secondary infections emerges naturally. Moreover, using an efficient sampling algorithm, we demonstrate how to apply Bayesian optimization with longitudinal case data to estimate the transmission rate of infectious individuals at sites they visit and in their households, as well as the mobility reduction due to social distancing. Simulations using fine-grained demographic data and site locations from several cities and regions demonstrate that our framework faithfully characterizes the observed longitudinal trend of COVID-19 cases. In addition, the simulations show that our model can be used to estimate the effect of testing, contact tracing, and containment at an unprecedented spatiotemporal resolution, and reveal that these measures do not decrease overdispersion in the number of secondary infections.">
   
   
     
@@ -125,7 +125,7 @@
 
   
 
-  <title>A Spatiotemporal Epidemic Model to Quantify the Effects of Contact Tracing, Testing, and Containment | William Trouleau</title>
+  <title>Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots | William Trouleau</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -227,10 +227,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">A Spatiotemporal Epidemic Model to Quantify the Effects of Contact Tracing, Testing, and Containment</h1>
+    <h1 itemprop="name">Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots</h1>
     <span class="pub-authors" itemprop="author">
       
-      L Lorch, <em>W Trouleau</em>, S Tsirtsis, A Szanto, B Schölkopf, M Gomez-Rodriguez
+      L Lorch, H Kremer, <em>W Trouleau</em>, S Tsirtsis, A Szanto, B Schölkopf, M Gomez-Rodriguez
       
     </span>
     <span class="float-right">
@@ -239,7 +239,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=A%20Spatiotemporal%20Epidemic%20Model%20to%20Quantify%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment&amp;url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f"
+         href="https://twitter.com/intent/tweet?text=Quantifying%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment%20Measures%20in%20the%20Presence%20of%20Infection%20Hotspots&amp;url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -253,21 +253,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f&amp;title=A%20Spatiotemporal%20Epidemic%20Model%20to%20Quantify%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f&amp;title=Quantifying%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment%20Measures%20in%20the%20Presence%20of%20Infection%20Hotspots"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f&amp;title=A%20Spatiotemporal%20Epidemic%20Model%20to%20Quantify%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f&amp;title=Quantifying%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment%20Measures%20in%20the%20Presence%20of%20Infection%20Hotspots"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=A%20Spatiotemporal%20Epidemic%20Model%20to%20Quantify%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment&amp;body=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f">
+         href="mailto:?subject=Quantifying%20the%20Effects%20of%20Contact%20Tracing%2c%20Testing%2c%20and%20Containment%20Measures%20in%20the%20Presence%20of%20Infection%20Hotspots&amp;body=https%3a%2f%2ftrouleau.github.io%2fpublication%2fcovid19-model%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -281,7 +281,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We introduce a novel modeling framework for studying epidemics that is specifically designed to make use of fine-grained spatiotemporal data. Motivated by the current COVID-19 outbreak and the availability of data from contact or location tracing technologies, our model uses marked temporal point processes to represent individual mobility patterns and the course of the disease for each individual in a population. We design an efficient sampling algorithm for our model that can be used to predict the spread of infectious diseases such as COVID-19 under different testing and tracing strategies, social distancing measures, and business restrictions, given location or contact histories of individuals. Building on this algorithm, we use Bayesian optimization to estimate the risk of exposure of each individual at the sites they visit, the percentage of symptomatic individuals, and the difference in transmission rate between asymptomatic and symptomatic individuals from historical longitudinal testing data. Experiments using measured COVID-19 data and mobility patterns from Tübingen, a town in the southwest of Germany, demonstrate that our model can be used to quantify the effects of tracing, testing, and containment strategies at an unprecedented spatiotemporal resolution. To facilitate research and informed policy-making, particularly in the context of the current COVID-19 outbreak, we are releasing an open-source implementation of our framework at this <a href="https://github.com/covid19-model" target="_blank">https URL</a>.</p>
+    <p class="pub-abstract" itemprop="text">Multiple lines of evidence at the individual and population level strongly suggest that infection hotspots, or superspreading events, where a single individual infects many others, play a key role in the transmission dynamics of COVID-19. However, most of the existing epidemiological models either assume or result in a Poisson distribution of the number of infections caused by a single infectious individual, often called secondary infections. As a result, these models overlook the observed overdispersion in the number of secondary infections and are unable to accurately characterize infection hotspots. In this work, we aim to fill this gap by introducing a temporal point process framework that explicitly represents sites where infection hotspots may occur. Under our model, overdispersion on the number of secondary infections emerges naturally. Moreover, using an efficient sampling algorithm, we demonstrate how to apply Bayesian optimization with longitudinal case data to estimate the transmission rate of infectious individuals at sites they visit and in their households, as well as the mobility reduction due to social distancing. Simulations using fine-grained demographic data and site locations from several cities and regions demonstrate that our framework faithfully characterizes the observed longitudinal trend of COVID-19 cases. In addition, the simulations show that our model can be used to estimate the effect of testing, contact tracing, and containment at an unprecedented spatiotemporal resolution, and reveal that these measures do not decrease overdispersion in the number of secondary infections.</p>
     
 
     
@@ -351,6 +351,11 @@
 
 
 
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/files/citations/covid19-model.bib">
+  Cite
+</button>
 
 
 <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/covid19-model" target="_blank" rel="noopener">
