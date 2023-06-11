@@ -1,52 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on William Trouleau</title>
-    <link>https://trouleau.github.io/tags/</link>
-    <description>Recent content in Tags on William Trouleau</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 28 Nov 2018 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://trouleau.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Disease modeling</title>
-      <link>https://trouleau.github.io/tags/disease-modeling/</link>
-      <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://trouleau.github.io/tags/disease-modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Epidemic modeling</title>
-      <link>https://trouleau.github.io/tags/epidemic-modeling/</link>
-      <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://trouleau.github.io/tags/epidemic-modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimal Control</title>
-      <link>https://trouleau.github.io/tags/optimal-control/</link>
-      <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://trouleau.github.io/tags/optimal-control/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SIS</title>
-      <link>https://trouleau.github.io/tags/sis/</link>
-      <pubDate>Wed, 28 Nov 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://trouleau.github.io/tags/sis/</guid>
-      <description></description>
-    </item>
+    <title>Tags | William Trouleau</title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
     
   </channel>
 </rss>

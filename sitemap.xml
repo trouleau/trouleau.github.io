@@ -1,166 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication/var-wold-aistats2021/</loc>
-      <lastmod>2021-01-15T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication/covid19-model/</loc>
-      <lastmod>2020-04-15T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication/var-hawkes-neurips2019/</loc>
-      <lastmod>2019-09-01T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication/noiys-hawkes-icml2019/</loc>
-      <lastmod>2019-04-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication/disease-control-ml4h-neurips2018/</loc>
-      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication/who-helminth/</loc>
-      <lastmod>2018-01-16T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication/kdd-binge-watching/</loc>
-      <lastmod>2016-08-13T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication_types/1/</loc>
-      <lastmod>2021-01-15T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication_types/2/</loc>
-      <lastmod>2018-01-16T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication_types/3/</loc>
-      <lastmod>2020-04-15T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/tags/disease-modeling/</loc>
-      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/tags/epidemic-modeling/</loc>
-      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/tags/optimal-control/</loc>
-      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/publication_types/</loc>
-      <lastmod>2021-01-15T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/tags/sis/</loc>
-      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/tags/</loc>
-      <lastmod>2018-11-28T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://trouleau.github.io/</loc>
-      <lastmod>2018-10-06T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/08-covid19-model-22/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication-type/7/</loc>
+    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/07-thesis2021/</loc>
+    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/06-var-wold-aistats21/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/05-var-hawkes-neurips19/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/04-noisy-hawkes-icml19/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/disease-modeling/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/epidemic-modeling/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/optimal-control/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/sis/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/03-disease-control-ml4h-neurips2018/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/02-who-helminth-2017/</loc>
+    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/01-binge-watching-kdd16/</loc>
+    <lastmod>2016-08-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/admin/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/categories/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
